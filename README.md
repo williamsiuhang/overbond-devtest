@@ -17,7 +17,7 @@ Open shell / console for the started Docker container
 
 #### Usage
 
-`overbond-cli [input-path] [option]`
+Command line in Docker container shell: `overbond-cli [input-path] [option]`
 
 `input-path`: is the file path to the input CSV
 
@@ -26,7 +26,11 @@ Open shell / console for the started Docker container
 
 #### Examples
 
+Pairing corporate bonds with its nearest government bond benchmark - based on term
+
 `overbond-cli data/sample_input.csv -benchmark`
+
+Find the yield curve spread between the corporate bond and government bond yield curve
 
 `overbond-cli data/sample_input2.csv -curve`
 

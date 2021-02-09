@@ -15,6 +15,8 @@ Open docker dashboard, and run Image named williamsi/overbond
 
 Open shell / console for the started Docker container
 
+#### Usage
+
 `overbond-cli [input-path] [option]`
 
 `input-path`: is the file path to the input CSV

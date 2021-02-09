@@ -40,3 +40,32 @@ If you have node and npm installed on your machine, run the node app from the pr
 Or turn it into a CLI
 1. `npm link`
 2. `overbond-cli pathname -option`
+
+
+## Technical spec
+
+Node js + Docker
+
+#### Third party libraries
+
+##### BigNumber 
+  - arbitrary-precision decimals and non-decimal arithmetic
+  - more precise financial calculations
+
+##### Chalk
+  - Better console logging
+
+##### CSV
+  - Easy csv data parsing and writing
+
+##### Everpolate
+  - Linear Interpolation calculations for yield curve
+
+##### Mocha
+  - Testing framework
+
+
+Few improvements to be made given more time:
+   - main methods in index.js can be more modular
+   - More test coverage
+   - Runtime efficiency during benchmarking
